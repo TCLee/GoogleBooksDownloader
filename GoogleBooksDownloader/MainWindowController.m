@@ -115,6 +115,9 @@
     savePanel.allowsOtherFileTypes = NO;
     savePanel.canSelectHiddenExtension = YES;
     
+    // By default, use directory name as the book's title.
+    savePanel.nameFieldStringValue = [self.book.downloadDirectoryURL lastPathComponent];
+    
     [savePanel beginSheetModalForWindow:self.window completionHandler:^(NSInteger result) {
         if (NSFileHandlingPanelOKButton == result) {
             // Must close the NSSavePanel before showing the Export PDF sheet!
