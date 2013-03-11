@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Book pagesJSONObjectWithPageID:]:Book.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Book pagesJSONObjectWithPageID:error:]:Book.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Page download]:Page.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Book loadPagesStartingFromPageID:]:Book.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Book downloadPage:]:Book.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Book downloadBook]:Book.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
