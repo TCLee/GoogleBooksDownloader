@@ -53,12 +53,12 @@
 {
     // Page Index starts from 0. Page number starts from 1.
     self.pageCountLabel.stringValue = [[NSString alloc] initWithFormat:
-                                       @"Page %lu of %lu", pageIndex + 1, book.pageCount];
+                                       @"Page %lu of %lu", pageIndex + 1, book.downloadedPageCount];
 }
 
 - (void)book:(Book *)book pdfDocument:(PDFDocument *)document didEndPageWriteAtIndex:(NSUInteger)pageIndex
 {
-    self.progressIndicator.doubleValue = (double)(pageIndex + 1) / (double)book.pageCount;
+    self.progressIndicator.doubleValue = (double)(pageIndex + 1) / (double)book.downloadedPageCount;
 }
 
 @end
