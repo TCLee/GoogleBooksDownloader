@@ -1,0 +1,7 @@
+#Google Books Downloader
+
+A Mac OS X application to download a book's contents from Google Books and save as PDF.
+
+**Build Requirements:** Mac OS X v10.8, XCode 4.5
+
+**Runtime Requirements:** Mac OS X v10.7
